@@ -4,7 +4,7 @@ import Button from "./Button";
 import classes from "./ErrorModel.module.css";
 
 const ErrorModel = (props) => {
-  return (
+    return (
     <div>
       <div className={classes.backdrop} onClick={props.onConfirm} />
       <Card className={classes.modal}>
